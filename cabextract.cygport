@@ -1,15 +1,10 @@
-SVN_URI="svn://svn.code.sf.net/p/libmspack/code"
-SVN_BRANCH=/
-inherit svn
-
 NAME="cabextract"
 VERSION=1.6
-RELEASE=0.1.svn220
+RELEASE=1
 CATEGORY="Archive"
 SUMMARY="Extract Microsoft cabinet (.CAB) files"
 DESCRIPTION="Extract Microsoft cabinet (.CAB) files"
 HOMEPAGE="http://www.cabextract.org.uk/"
-#SRC_URI="http://www.cabextract.org.uk/cabextract-${VERSION}.tar.gz"
-SRC_DIR="code/cabextract/trunk"
+SRC_URI="http://www.cabextract.org.uk/cabextract-${VERSION}.tar.gz"
 
-#CYGCONF_ARGS="--with-external-libmspack"
+CYGCONF_ARGS="--with-external-libmspack"
